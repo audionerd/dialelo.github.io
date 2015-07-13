@@ -336,7 +336,7 @@ call _effects_.
 
 import csp from "js-csp";
 import {ACTIONS} from "./constants";
-
+import {state} from "./state";
 
 export function logIn(publication, state){
     let loginChan = csp.chan();
